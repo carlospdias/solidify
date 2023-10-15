@@ -19,3 +19,4 @@ $ mvn archetype:generate \
 
 ```
 
+https://www.youtube.com/shorts/bu79EVKoCyg?feature=share
