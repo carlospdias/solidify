@@ -18,5 +18,19 @@ $ mvn archetype:generate \
   -DinteractiveMode=false
 
 ```
-
+-------------------------------------------------------------------------------
 https://www.youtube.com/shorts/bu79EVKoCyg?feature=share
+
+------------------------------------------------------------------------------
+ARTEMIS_FILE="https://downloads.apache.org/activemq/activemq-artemis/2.31.0/apache-artemis-2.31.0-bin.zip"
+ARTEMIS_APP="artemis"
+
+curl $ARTEMIS_FILE  --output ${ARTEMIS_APP}.zip
+unzip ${ARTEMIS_APP}.zip
+mv apache-artemis-2.31.0 ${ARTEMIS_APP}
+
+rm -rf ${ARTEMIS_APP}/examples
+
+rm ${ARTEMIS_APP}.zip
+
+#https://1kevinson.com/springboot-artemis-broker/
