@@ -22,6 +22,7 @@ $ mvn archetype:generate \
 https://www.youtube.com/shorts/bu79EVKoCyg?feature=share
 
 ------------------------------------------------------------------------------
+```sh
 ARTEMIS_FILE="https://downloads.apache.org/activemq/activemq-artemis/2.31.0/apache-artemis-2.31.0-bin.zip"
 ARTEMIS_APP="artemis"
 
@@ -34,3 +35,4 @@ rm -rf ${ARTEMIS_APP}/examples
 rm ${ARTEMIS_APP}.zip
 
 #https://1kevinson.com/springboot-artemis-broker/
+```
