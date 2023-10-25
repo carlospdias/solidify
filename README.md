@@ -36,3 +36,6 @@ rm ${ARTEMIS_APP}.zip
 
 #https://1kevinson.com/springboot-artemis-broker/
 ```
+
+
+- https://stackoverflow.com/questions/75409341/create-an-activemq-artemis-server-and-send-a-message-on-queue-through-it-inside
